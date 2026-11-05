@@ -1,0 +1,20 @@
+# Segredos e chaves
+*.pem
+*.pem:Zone.Identifier
+.env
+*.auto.tfvars
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+
+# Scratch do fluxo de execução
+.superpowers/
+
+# Valores pessoais (existem so na sua maquina; ha .example versionado ao lado)
+terraform.tfvars
+nuke/keep.local.json
+nuke/.rendered.yml

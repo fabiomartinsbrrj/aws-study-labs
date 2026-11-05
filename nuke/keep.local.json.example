@@ -1,0 +1,8 @@
+{
+  "users": ["outro-usuario-iam"],
+  "groups": ["Administrators"],
+  "roles": ["minha-role-de-ci"],
+  "buckets": ["bucket-de-outro-projeto"],
+  "budgets": ["Nome do budget antigo"],
+  "key_pairs": ["outro-key-pair"]
+}

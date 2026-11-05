@@ -1,0 +1,4 @@
+# Copie para terraform.tfvars (ignorado pelo git) e ajuste.
+key_name    = "meu-key-pair"       # nome do key pair existente na AWS (nao o arquivo .pem)
+alert_email = "voce@exemplo.com"   # recebe os alertas do Budget
+# ssh_cidrs = ["SEU.IP/32"]        # opcional: liga SSH; vazio = so SSM
